@@ -1,0 +1,135 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}*/
+
+
+/*{
+    width:1024px;
+}
+*/
+h1{
+    margin-left: 50px;
+}
+
+.nav-bar
+{
+    width:auto;
+}
+.nav-bar ul
+{
+    overflow: hidden;
+    text-decoration: none;
+    background-color: aquamarine;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.nav-bar li
+{
+    display: inline;
+    padding-right: 5px;
+}
+
+.nav-bar li a
+{
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding:10px 26px 10px 0;
+}
+h2
+{
+    color:brown;
+    font-weight: bold;
+    margin-left:50px;
+}
+
+.container
+{
+    height:auto;
+    overflow: hidden;
+}
+.left-container
+{
+    width:200px;
+    float: left;
+    height:auto;
+}
+.right-container
+{
+    float:right;
+    height:auto;
+    width:700px;
+}
+.footer
+{
+    float:right;
+    background-color: darkgrey;
+    width:1024px;/*width: 1024px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: azure;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top:10px;
+*/
+}
+.footer ul{
+    float:right;
+}
+
+.footer li
+{
+    float:left;
+    list-style:none;
+    padding: 5px;
+}
+
+.footer li a{
+    display: inline;
+    text-decoration: none;
+    margin-right: 8px;
+}
+/*.footer ul
+{
+    overflow: hidden;
+    text-decoration: none;
+    background-color: azure;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.footer ul li
+{
+    display: inline;
+    padding-right: 5px;
+    float:right;
+}
+*/
+/*.footer a
+{
+    display: inline;
+    padding-right: 5px;
+    float:right;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding:10px 26px 10px 0;
+}
